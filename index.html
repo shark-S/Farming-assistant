@@ -498,12 +498,15 @@ h5{
       <form action="getAnswer" method='POST'>
       <div id="selection">
         <select id="listBox" onchange='selct_district(this.value)' name="state"></select>
+        Choose District:
         <select id='secondlist' name="district" required></select>
+        Choose Season:
         <select id='season' name='season'>
             <option value='rabi' default>Rabi</option>
             <option value='kharif'>Kharif</option>
        	
         </select>
+        Enter Area in Acres:
         <input type="float" name="area" value="100">
         
        <input type="submit" value="submit"/>
