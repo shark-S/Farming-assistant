@@ -1,2 +1,2 @@
-# Farming-assistent
+# Farming-assistant
 Farmer's personal assistant
